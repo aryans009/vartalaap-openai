@@ -25,6 +25,9 @@ app.use(cookieParser(process.env.COOKIE_SECRET));
 //remove it in production
 // app.use(morgan("dev"));
 app.use("/api/v1",appRoutes);
+app.use("/api/status", (req, res) => {
+    res.send("API is running...");
+})
 
 if(process.env.NODE_ENV !== "production"){
     const PORT = process.env.PORT || 5000;
