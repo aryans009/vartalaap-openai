@@ -35,13 +35,6 @@ Before you begin, ensure you have the following installed:
 ## ⚙️ Environment Variables
 Create a `.env` file in the root of your project and add the following:
 
-```env
-PORT=8080
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-OPENAI_API_KEY=your_openai_api_key
-
-
 
 ![Home Page](./screenshots/ss2.png)
 ![SignUp Page](./screenshots/ss4.png)
@@ -58,3 +51,13 @@ npm start
 cd frontend
 npm install
 npm run dev
+
+```env
+PORT=8080
+MONGODB_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+OPENAI_API_KEY=your_openai_api_key
+
+
+
+
