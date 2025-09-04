@@ -32,8 +32,6 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-## ⚙️ Environment Variables
-Create a `.env` file in the root of your project and add the following:
 
 
 ![Home Page](./screenshots/ss2.png)
@@ -52,11 +50,15 @@ cd frontend
 npm install
 npm run dev
 
+
+## ⚙️ Environment Variables
+Create a `.env` file in the root of your project and add the following:
 ```env
-PORT=8080
+PORT=5005
 MONGODB_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 OPENAI_API_KEY=your_openai_api_key
+OPEN_AI_ORGANIZATION=your_openai_organization_key
 
 
 
