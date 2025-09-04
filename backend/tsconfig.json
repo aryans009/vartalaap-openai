@@ -5,7 +5,7 @@
     "target": "ES2022",
     "lib": ["es2022", "dom"],
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "./backend/index.ts",
     "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*.ts", "src/index.ts"]
